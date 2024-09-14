@@ -9,7 +9,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
 @Slf4j
-public class experiment01 {
+public class Experiment01 {
     @Autowired
     private UserRepository userRepository;
 
