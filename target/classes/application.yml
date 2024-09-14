@@ -1,0 +1,10 @@
+spring:
+  pplication:
+    name: springboot-course
+  datasource:
+    url:  'jdbc:mysql://120.46.159.231:3306/2022212927?createDatabaseIfNotExist=true'
+    username: 2022212927
+    password: 2022212927
+  sql:
+    init:
+      mode: always
