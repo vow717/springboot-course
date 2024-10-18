@@ -8,3 +8,10 @@ spring:
   sql:
     init:
       mode: always
+logging:
+  level:
+    sql: debug
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'

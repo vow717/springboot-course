@@ -1,6 +1,8 @@
 package com.example.springbootcourse;
 
+import com.example.springbootcourse.dox.Address;
 import com.example.springbootcourse.dox.User;
+import com.example.springbootcourse.repository.AddressRepository;
 import com.example.springbootcourse.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -13,6 +15,8 @@ public class Experiment01 {
     @Autowired
     private UserRepository userRepository;
 
+    @Autowired
+    private AddressRepository addressRepository;
     @Test
     void testUserAdd(){
         User user = User.builder().name("test").build();
@@ -28,5 +32,15 @@ public class Experiment01 {
         user.setName("update2");
         userRepository.save(user);
         log.info("User updated: {}", user.getName());
+    }
+
+    @Test
+    void testAddressAdd(){
+        Address address= Address.builder().name("shanghai").userId("1283954270169460736").build();
+        addressRepository.save(address);
+        log.info("Address added: {}", address.getName());
+        Address address2= Address.builder().name("beijing").userId("1283954270169460736").build();
+        addressRepository.save(address2);
+        log.info("Address added: {}", address2.getName());
     }
 }
