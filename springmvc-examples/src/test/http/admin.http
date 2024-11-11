@@ -1,0 +1,8 @@
+GET https://localhost:8080/api/admin/user
+
+### 成功的响应
+GET localhost:8080/api/admin/user/zhangsan
+
+###
+GET http://localhost:8080/api/admin/users
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiQWwyTiIsInVpZCI6IjEiLCJpYXQiOjE3MzA2MzEyOTMsImV4cCI6MTczMDcxNzY5M30.krNOUrNh4PucooOGUFUM3q0qsr9Q5gzfHXdIdJOGwl4

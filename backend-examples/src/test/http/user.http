@@ -1,0 +1,9 @@
+### 用户修改自己的密码
+PATCH localhost:8080/api/user/password
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYTM0diIsInVpZCI6IjEzMDMyNDY4NTc5NDE5MDU0MDgiLCJpYXQiOjE3MzA3ODg3NzUsImV4cCI6MTczMDg3NTE3NX0.cFDEI19Zad1rbnNK1-3A16Hy6ExE1OsqwsQff9CFCGA
+role: 07CS
+Content-Type: application/json
+
+{
+  "password": "wkfnb"
+}

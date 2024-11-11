@@ -1,0 +1,16 @@
+spring:
+  data:
+    redis:
+      host: 120.46.159.231
+      port: 6379
+      username: default
+      password: 2046
+      database: 44
+
+logging:
+  level:
+    root: warn
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'

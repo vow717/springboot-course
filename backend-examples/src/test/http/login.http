@@ -1,0 +1,17 @@
+### admin账号登陆，获取token
+POST localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "account": "admin",
+  "password": "admin"
+}
+
+### user账号登陆，获取token
+POST localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "account": "202201",
+  "password": "202201"
+}

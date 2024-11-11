@@ -1,0 +1,26 @@
+### admin成功的测试
+POST localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "account": "1001",
+  "password": "123456"
+}
+
+### admin失败的测试
+POST localhost:8080/api/login
+Content-Type: application/json
+
+{
+"account": "1001",
+"password": "aaaaaa"
+}
+
+### user成功的测试
+POST localhost:8080/api/login
+Content-Type: application/json
+
+{
+"account": "1002",
+"password": "123456"
+}

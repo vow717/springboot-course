@@ -1,0 +1,14 @@
+### admin管理员添加用户
+POST localhost:8080/api/admin/users
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTzdDUyIsInVpZCI6IjEzMDMyNDMyOTkwNzQ5NjE0MDgiLCJpYXQiOjE3MzA3ODc4NTEsImV4cCI6MTczMDg3NDI1MX0.FXBUV26485ptm_9W0oUtGekSWPKWemCzKMRdAB6lo6k
+Content-Type: application/json
+
+{
+  "name": "wkf",
+  "account": "202201",
+  "role": "a34v"
+}
+
+### 重置用户密码
+PUT localhost:8080/api/admin/users/202201/password
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiTzdDUyIsInVpZCI6IjEzMDMyNDMyOTkwNzQ5NjE0MDgiLCJpYXQiOjE3MzA3ODc4NTEsImV4cCI6MTczMDg3NDI1MX0.FXBUV26485ptm_9W0oUtGekSWPKWemCzKMRdAB6lo6k

@@ -13,6 +13,9 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>springboot-course</name>
     <description>springboot-course</description>
+    <modules>
+        <module>springmvc-examples</module>
+    </modules>
     <url/>
     <licenses>
         <license/>
@@ -53,6 +56,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jdbc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
         </dependency>
     </dependencies>
 

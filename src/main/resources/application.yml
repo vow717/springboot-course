@@ -10,7 +10,7 @@ spring:
       mode: always
 logging:
   level:
-    sql: debug
+    root: warn
     com:
       example: debug
   pattern:
