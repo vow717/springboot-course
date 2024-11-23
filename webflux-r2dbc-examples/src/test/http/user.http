@@ -1,0 +1,17 @@
+### 用户登入
+POST http://localhost:8080/api/login
+Content-Type: application/json
+
+{
+  "account": "1001",
+  "password": "1001"
+}
+
+### 用户修改自己密码
+PATCH http://localhost:8080/api/user/password
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMzA5NTEwMTA4NTY3NzU2ODAwIiwicm9sZSI6ImE4YXUyIiwiaWF0IjoxNzMyMzUwMDIxLCJleHAiOjE3MzI0MzY0MjF9.k_azruUQwG6d6aI0KenESoguskJ7YQMmTglc8wPzzqU
+Content-Type: application/json
+
+{
+  "password": "1gfg"
+}

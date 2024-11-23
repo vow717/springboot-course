@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springmvc-examples/pom.xml" />
         <option value="$PROJECT_DIR$/backend-examples/pom.xml" />
         <option value="$PROJECT_DIR$/redis-examples/pom.xml" />
+        <option value="$PROJECT_DIR$/webflux-r2dbc-examples/pom.xml" />
       </list>
     </option>
   </component>

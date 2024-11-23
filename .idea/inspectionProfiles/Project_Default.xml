@@ -6,6 +6,8 @@
         <set>
           <option value="token" />
           <option value="role" />
+          <option value="uid" />
+          <option value="@attribute uid=1001" />
         </set>
       </option>
     </inspection_tool>

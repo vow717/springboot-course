@@ -1,0 +1,12 @@
+### admin账号add一个用户
+POST localhost:8080/api/admin/add
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMzA5NDMxOTQzOTA4NDgzMDcyIiwicm9sZSI6InZCZDFhIiwiaWF0IjoxNzMyMzU0NzQzLCJleHAiOjE3MzI0NDExNDN9.4GVfXCKyv6ueFu2YIZDIq5ZMDflBcoUWGv1O1kj-JQU
+
+{
+  "name": "test",
+  "account": "1001"
+}
+
+### admin账号重置用户的密码
+PUT localhost:8080/api/admin/password/1001
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiIxMzA5NDMxOTQzOTA4NDgzMDcyIiwicm9sZSI6InZCZDFhIiwiaWF0IjoxNzMyMzU0NzQzLCJleHAiOjE3MzI0NDExNDN9.4GVfXCKyv6ueFu2YIZDIq5ZMDflBcoUWGv1O1kj-JQU

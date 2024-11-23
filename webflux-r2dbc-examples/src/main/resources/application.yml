@@ -1,0 +1,25 @@
+spring:
+  r2dbc:
+    url: r2dbcs:mysql://127.0.0.1:13309/my_database
+    username: root
+    password: Wkfroot
+    pool:
+      enabled: true
+      initial-size: 1
+  sql:
+    init:
+      mode: always
+
+  jackson:
+    default-property-inclusion: non_null
+
+logging:
+  level:
+    root: warn
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
+
+my:
+  secretkey: a2jCaIA2xaj29AfFAx
