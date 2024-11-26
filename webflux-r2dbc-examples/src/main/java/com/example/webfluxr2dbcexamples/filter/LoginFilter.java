@@ -30,7 +30,6 @@ public class LoginFilter implements WebFilter {
     private final PathPattern path = new PathPatternParser().parse("/api/**");
     private final List<PathPattern> excludes=List.of(new PathPatternParser().parse("/api/login"));
     private final JWTComponent jwtComponent;
-
     //这个responseHelper是用来处理响应的，它的作用是将一个错误信息对象转换为 JSON 格式的字符串，然后将这个 JSON 字符串转换为字节数组，以便后续作为响应体发送出去。
     private final ResponseHelper responseHelper;
 
